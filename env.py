@@ -55,5 +55,5 @@ class Env:
             np.array([i, j])
             for i in range(-1, 2)
             for j in range(-1, 2)
-            if abs(i) + abs(j) <= 1
+            if abs(i) + abs(j) == 1
         ]
